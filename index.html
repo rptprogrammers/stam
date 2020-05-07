@@ -15,6 +15,16 @@
   model-viewer {
     --ar-button-scale: 9.5;
   }
+      @media screen and (max-width: 768px) {
+  #IG-icon {
+    visibility: visible;
+    position: absolute;
+    bottom: 16px;
+    right: 72px;
+    transform: scale(var(--ar-button-scale, 1));
+    transform-origin: bottom right;
+  }
+}
 }
   </style>
 </head>
